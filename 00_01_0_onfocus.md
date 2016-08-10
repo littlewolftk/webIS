@@ -11,6 +11,8 @@
 
 `<input onfocus=write(1) autofocus>`
 
+`<input onblur=write(1) autofocus><input autofocus>`
+
 
 防御：
 ----
