@@ -4,7 +4,7 @@
  
 ### `localStorage` - 没有时间限制的数据存储
 * 创建访问 localStorage
-  * 实例: `<script type="text/javascript">localStorage.lastname="Smith";document.write(localStorage.lastname);</script>`
+  * 实例: <br />`<script type="text/javascript">localStorage.lastname="Smith";document.write(localStorage.lastname);</script>`
 
 ### `sessionStorage` - 针对一个 session 的数据存储
 * 创建访问sessionStorage
