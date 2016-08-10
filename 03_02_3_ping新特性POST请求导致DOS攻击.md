@@ -9,10 +9,11 @@
 
 举例：
 -----
+···JavaScript
       <script> 
       var link = document.createElement('a'); 
       link.href=""; 
       link.ping = 'http://www.xisigr.com/'; 
       document.head.appendChild(link); link.click(); 
-      </script>    
+      </script>       //JavaScript
       运行上面的代码，就会不停的向xisigr.com发送POST请求。
