@@ -22,7 +22,7 @@ webIS
 
 * 0: XSS
 * 1: CSRF
-* 2：DOS
+* 2: DOS
 
 -----
 
