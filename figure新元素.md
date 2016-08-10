@@ -1,6 +1,6 @@
 `figure`新元素：
 ------
-功能:`<figure>`元素和`<figcaption>`结合，语义化地将注释和相应的图片联系起来。
+功能:`<figure>`元素和`<figcaption>`结合，语义化地将注释和相应的图片联系起来。<br>
 举例：<br>
 <.figure>. <br>
 <.img src="path/to/image" alt="About image" />. <br>
