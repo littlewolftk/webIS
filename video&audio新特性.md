@@ -14,7 +14,7 @@
 
 音频:`<audio>`
 ------
-* 标签属性：autoplay, contros, preload,s rc
+* 标签属性：autoplay, contros, preload,src
 * 格式：ogg(oga), mp3, wav, AAC
 
 举例： <br>
