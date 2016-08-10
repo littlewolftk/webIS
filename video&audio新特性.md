@@ -7,6 +7,6 @@
 * 标签属性：autoplay, contros, preload,s rc
 * 格式：ogg(oga), mp3, wav, AAC
 
-不同浏览器支持方式不同
 ------
+不同浏览器支持方式不同
 
