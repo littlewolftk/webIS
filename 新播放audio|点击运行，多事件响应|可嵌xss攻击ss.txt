@@ -1,8 +1,9 @@
-特性：<audio> 标签用于定义声音，比如音乐或其他音频流。
+------
+*特性：<audio> 标签用于定义声音，比如音乐或其他音频流。
     对比H4代码：HTML5:<audio src="someaudio.wav">您的浏览器不支持 audio 标签。</audio>
                  HTML4:<object type="application/ogg" data="someaudio.wav"><param name="src" value="someaudio.wav"></object>
     对于兼容此代码的浏览器，播放时不再需要插件的存在，Internet Explorer 9+, Firefox, Opera, Chrome 以及 Safari 支持 <audio> 标签
-     新属性    属性值
+*属性与方法： 新属性    属性值
     autoplay 	autoplay 	如果出现该属性，则音频在就绪后马上播放。
     controls 	controls 	如果出现该属性，则向用户显示控件，比如播放按钮。
     loop 	     loop 	  如果出现该属性，则每当音频结束时重新开始播放。
@@ -32,8 +33,9 @@
     timeupdate 	当目前的播放位置已更改时
     volumechange 	当音量已更改时
     waiting 	当视频由于需要缓冲下一帧而停止
-    
+------
 安全性：对于这个新出来的声效标签，安全漏洞和之前h4的img和object类似，都是可以外部获取url内嵌攻击代码；
         不过对于之前的攻击方式大多都会被short和medisity(忘了怎么拼了）的规则限制住，无法生效；
         但对于新标签的利用，可以根据浏览器的插件与兼容性上入手！
         同时对于新标签的新增事件响应，也有许多反射型XSS的植入点。
+------
