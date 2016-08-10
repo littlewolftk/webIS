@@ -8,10 +8,10 @@
 * 格式：ogg(oga), mp3, wav, AAC
 
 举例：
-<.audio autoplay="autoplay" controls="controls">.
-     <.source src="file.ogg" />.
-     <.source src="file.mp3" />. 
-     <.a href="file.mp3">.Download this file.</.a>.
+<.audio autoplay="autoplay" controls="controls">. <br>
+     <.source src="file.ogg" />.<br>
+     <.source src="file.mp3" />. <br>
+     <.a href="file.mp3">.Download this file.</.a>. <br>
 </.audio>
 
 ------
