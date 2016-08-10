@@ -4,6 +4,9 @@
       storage分为sessionStorage和localStorage。
       1.sessionStorage  临时存储，当页面关闭的时候，本地存储也就消失。并且sessionStorage的数据是不会共享的。
       2.localStorage 永久删除，可以手动删除数据，数据是共享的。
+*格式：<script type="text/javascript">
+       localStorage.lastname="Smith";document.write(localStorage.lastname);
+       </script>
 *属性与方法：storage下有以下api：
       window.sessionStorage和window.localStorage有以下4个方法：
       setItem(): 设置数据，key\value类型，类型都是字符串 可以用获取属性的形式操作
