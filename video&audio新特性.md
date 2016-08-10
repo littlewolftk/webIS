@@ -1,5 +1,5 @@
- 视频: `<video>`
- ------
+视频: `<video>`
+------
 * 标签属性：autoplay, contros, height, loop, preload, src, width
 * 方式：使用 DOM 进行控制
 * 格式：ogg(ogv), mp4
@@ -9,8 +9,7 @@
 * 标签属性：autoplay, contros, preload,s rc
 * 格式：ogg(oga), mp3, wav, AAC
 
-举例：
-
+举例： <br>
 <.audio autoplay="autoplay" controls="controls">. <br>
      <.source src="file.ogg" />.<br>
      <.source src="file.mp3" />. <br>
