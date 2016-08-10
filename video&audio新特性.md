@@ -6,9 +6,9 @@
 
 举例：<br>
 <.video controls preload>. 
-<.source src="cohagenPhoneCall.ogv" type="video/ogg; codecs='vorbis, theora'" />. <br>
-<.source src="cohagenPhoneCall.mp4" type="video/mp4; 'codecs='avc1.42E01E, mp4a.40.2'" />. <br>
-<.p>. Your browser is old. <.a href="cohagenPhoneCall.mp4">.Download this video instead.</.a>. </.p>. <br>
+<.source src="cohagenPhoneCall.ogv" type="video/ogg; codecs='vorbis, theora'" /> <br>
+<.source src="cohagenPhoneCall.mp4" type="video/mp4; 'codecs='avc1.42E01E, mp4a.40.2'" /> <br>
+<.p>. Your browser is old. <.a href="cohagenPhoneCall.mp4">.Download this video instead.</.a>. </.p> <br>
 </.video> <br>
 
 
@@ -18,10 +18,10 @@
 * 格式：ogg(oga), mp3, wav, AAC
 
 举例： <br>
-<.audio autoplay="autoplay" controls="controls">. <br>
-     <.source src="file.ogg" />.<br>
-     <.source src="file.mp3" />. <br>
-     <.a href="file.mp3">.Download this file.</.a>. <br>
+<.audio autoplay="autoplay" controls="controls"><br>
+     <.source src="file.ogg" /><br>
+     <.source src="file.mp3" /><br>
+     <.a href="file.mp3">.Download this file.</.a><br>
 </.audio>
 
 ------
