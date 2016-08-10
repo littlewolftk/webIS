@@ -14,6 +14,7 @@ webIS
 * 03: ping新特性
 * 04: Body新特性
 * 05: source新特性
+* 06: WebRTC新标准
 
 ##### 中间两位：环境
 
@@ -26,6 +27,7 @@ webIS
 * 0: XSS
 * 1: CSRF
 * 2: DOS
+* F: Auxiliary
 
 -----
 
