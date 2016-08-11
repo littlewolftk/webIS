@@ -11,6 +11,10 @@
 <.p>. Your browser is old. <.a href="cohagenPhoneCall.mp4">.Download this video instead.</.a>. </.p> <br>
 </.video> <br>
 
+漏洞：XSS攻击,可以绕过现有的XSS过滤器 <br>
+举例：
+`<video><sourceonerrorsourceonerrorsourceonerrorsourceonerror="javascript:alert(1)“>  `
+
 
 音频:`<audio>`
 ------
