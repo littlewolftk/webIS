@@ -12,7 +12,8 @@
 ------
 安全性：可以用来伪造隐藏XSS攻击，绕过过滤器和黑名单；<br>
         如利用poster、autofocus、onerror、formaction、oninput等属性，<br>
-        输出脚本JS，实现XSS攻击或CSRF劫持。<br>
+        输出脚本JS，实现XSS攻击或CSRF劫持。
+
 ------
 攻击典例：
         `<form oninput="javascript:0">0<br>
