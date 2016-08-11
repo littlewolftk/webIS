@@ -1,9 +1,9 @@
 
 WebWorker介绍
 ------
-    由于JavaScript是单线程执行的，在执行过程中浏览器不能执行其它JavaScript脚本，UI渲染线程也会被挂起，
-从而导致浏览器进入僵死状态。使用WebWorker可以将计算过程放入一个新线程里去执行将避免这种情况的出现。
-　　这样我们可以同时执行多个JS任务而不会阻塞浏览器，非常适合异步交互和大规模计算，这在以前是很难做到的。
+由于JavaScript是单线程执行的，在执行过程中浏览器不能执行其它JavaScript脚本，UI渲染线程也会被挂起，<br>
+从而导致浏览器进入僵死状态。使用WebWorker可以将计算过程放入一个新线程里去执行将避免这种情况的出现。<br>
+这样我们可以同时执行多个JS任务而不会阻塞浏览器，非常适合异步交互和大规模计算，这在以前是很难做到的。<br>
 
 攻击
 ------
@@ -18,9 +18,9 @@ WebWorker介绍
 ###举例
 如下代码没有对输入数据进行验证和清洗，攻击者完全可以构造恶意的data来注入页面DOM，构造XSS攻击，形如“><script></script>”等等。
 
-`worker.addEventListener(‘message’,function(e) {   ` 
- `  document.getElementById(‘result’).innerHTML = e.data;`    
-`}, false); ` 
+`worker.addEventListener(‘message’,function(e) {   ` <br>
+ `  document.getElementById(‘result’).innerHTML = e.data;`    <br>
+`}, false); ` <br>
 
 防御
 ------
