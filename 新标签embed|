@@ -1,8 +1,0 @@
-------
-*特性：embed可以用来插入各种多媒体，格式可以是 Midi、Wav、AIFF、AU、MP3等等，
-      Netscape及新版的IE 都支持。url为音频或视频文件及其路径，可以是相对路径或绝对路径。
-*属性方法：类似于 <audio> 和 <video>
-      能够响应各属性事件
-*格式：<embed src="your.mid">
-------
-安全性：和<audio> 和 <video>相同
