@@ -7,5 +7,5 @@
 ----
 ##### 注：
 可以用 <br>
-`	< input type="text" name="test" required oninvalid="setCustomValidity('请输入！');" oninput="setCustomValidity('');" />`<br>
+`	< input type="text" name="test" required oninvalid="setCustomValidity('请输入！');" oninput="setCustomValidity('');" />` 
 来在input没有输入值时执行计算，从而获得XSS的能力。 <br>
