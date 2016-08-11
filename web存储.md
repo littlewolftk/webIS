@@ -11,3 +11,8 @@
 * 创建访问sessionStorage
   * 实例: <br />
   `<script type="text/javascript">sessionStorage.lastname="Smith";document.write(sessionStorage.lastname);</script>`
+
+### 漏洞：
+ XSS攻击、SQL注入
+ 
+`<img src=’X’ onerror=alert(1);>`
