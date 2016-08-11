@@ -4,13 +4,11 @@
        datalist 及其选项不会被显示出来，它仅仅是合法的输入值列表。
        性质略同H4的复选框。
 * 格式：
-----
-       <input id="fruits" list="fruits" />
-       <datalist id="fruits">
-       <option value="Apple">
-       <option value="Banana">
-       </datalist>
-----
+       `<input id="fruits" list="fruits" />`
+       `<datalist id="fruits">`
+       `<option value="Apple">`
+       `<option value="Banana">`
+       `</datalist>`
 * 属性方法：支持HTML5的全局属性和事件属性。
 
 ------
