@@ -34,7 +34,7 @@ if(localStorage.length){
 下面的脚本可遍历全局变量来获取信息
 
 <pre>
-01.for(iin window) {    
+for(iin window) {    
          obj=window[i];    
          if(obj!=null||obj!=undefined)    
              var type =typeof(obj);    
