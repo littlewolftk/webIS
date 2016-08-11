@@ -22,14 +22,14 @@
       oldValue : 调用改变前的value值<br>
       storageArea : 当前的storage对象<br>
       url : 触发该脚本变化的文档的url
-*格式典例：
-      `window.addEventListener('storage',function(ev){  //当前页面的事件不会触<br>
-        console.log( ev.key );<br>
-        console.log( ev.newValue );<br>
-        console.log( ev.oldValue );<br>
-        console.log( ev.storageArea );<br>
-        console.log( ev.url );<br>
-      },false);<br>`
+* 格式典例：
+      `window.addEventListener('storage',function(ev){  //当前页面的事件不会触`<br>
+        `console.log( ev.key );`<br>
+        `console.log( ev.newValue );`<br>
+       ` console.log( ev.oldValue );`<br>
+        `console.log( ev.storageArea );`<br>
+       ` console.log( ev.url );`<br>
+      `},false);`<br>
       
 ------
 安全性：Cookie未来的替代品。有存储量大、稳定、存取简便的优点，缺点是安全性，<br>
