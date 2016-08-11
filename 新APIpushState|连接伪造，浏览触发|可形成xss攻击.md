@@ -9,7 +9,7 @@
 安全性：由于这两个方法能在不刷新页面的情况下修改历史条目，所以可以在URL上动手攻击
 
 ------
-典例：
+典例：<br>
            1.大量伪造前进后退连接地址，充填历史记录，伪造历史<br>
             2.和短地址转换技术一起形成xss攻击<br>
                 例如：` http://xxxx.com/?userid=&appid=<scrpt>document.erite(1)</script>`<br>
