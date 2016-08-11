@@ -12,7 +12,7 @@
 　　  onerror：当出现错误的时候触发该事件；
 * 格式： 
 
-      if(window.Notification && Notification.permission !== "denied") {
+     ` if(window.Notification && Notification.permission !== "denied") {
           Notification.requestPermission(function(status) {    // 请求权限
              if(status === 'granted') {
                   // 弹出一个通知
@@ -26,7 +26,7 @@
                  }, 2000);
              }
          });
-         
+         `
 ------
 安全性：Web Notifications让我们在浏览器中能够接收推送的消息通知,
         但是它由于可以以HTML方式创建消息提醒，有可能会被攻击者利用来构造虚假信息，诱惑用户点击或者输入个人信息，实现钓鱼。
