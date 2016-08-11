@@ -18,11 +18,11 @@
         
 ------
 
-攻击猜测：
+攻击典例：
         <form>
         <input>
-        <datalist formaction="javascript:alert(1)" id="fruits”>
-        <option value=”Apple”>
-        <option value=”Banana”>
+        <datalist formaction="javascript:alert(1)" id="fruits">
+        <option value="Apple">
+        <option value="Banana">
         </datalist>
         当输入提交及运行攻击代码
