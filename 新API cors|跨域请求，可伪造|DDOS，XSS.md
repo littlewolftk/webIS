@@ -1,10 +1,10 @@
 ------
-*特性：CORS通过服务器增加一个特殊的Header[Access-Control-Allow-Origin]来告知客户端跨域的限制，如果浏览器支持CORS的话，如果判断Origin通过的话，就会允许XHR进行请求，而不需要再使用jsonP或者代理文件。
+* 特性：CORS通过服务器增加一个特殊的Header[Access-Control-Allow-Origin]来告知客户端跨域的限制，如果浏览器支持CORS的话，如果判断Origin通过的话，就会允许XHR进行请求，而不需要再使用jsonP或者代理文件。
       如果浏览器检测到相应的设置，就可以允许Ajax进行跨域的访问。
       浏览器支持：
       Feature    	Chrome 	Firefox (Gecko) 	Internet Explorer    	Opera 	Safari
     Basic support 	4 	    3.5         8 (via XDomainRequest)10 	  12    	4
-*属性方法：Access-Control-Allow-Origin: http://foo.example
+* 属性方法：Access-Control-Allow-Origin: http://foo.example
       Access-Control-Allow-Methods: POST, GET, OPTIONS
       Access-Control-Allow-Headers: X-PINGOTHER
       Access-Control-Max-Age: 1728000
