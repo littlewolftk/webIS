@@ -12,19 +12,19 @@
 　　  onerror：当出现错误的时候触发该事件；
 * 格式： 
 
-     ` if(window.Notification && Notification.permission !== "denied") {`
-          `Notification.requestPermission(function(status) {    // 请求权限`
-             `if(status === 'granted') {`
-                `  // 弹出一个通知`
-                 ` var n = new Notification('Title', {`
-                   `   body : 'I am a Notification',`
-                    `  icon : '../xx.png'`
-               `   });`
-                ` // 两秒后关闭通知`
-             `    setTimeout(function() {`
-                   `  n.close();`
-             `    }, 2000);`
-           `  }`
+     ` if(window.Notification && Notification.permission !== "denied") {`<br>
+          `Notification.requestPermission(function(status) {    // 请求权限`<br>
+             `if(status === 'granted') {`<br>
+                `  // 弹出一个通知`<br>
+                 ` var n = new Notification('Title', {`<br>
+                   `   body : 'I am a Notification',`<br>
+                    `  icon : '../xx.png'`<br>
+               `   });`<br>
+                ` // 两秒后关闭通知`<br>
+             `    setTimeout(function() {`<br>
+                   `  n.close();`<br>
+             `    }, 2000);`<br>
+           `  }`<br>
        `  });`
          
 ------
