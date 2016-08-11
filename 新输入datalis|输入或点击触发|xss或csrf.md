@@ -3,11 +3,14 @@
 * 特性：自定义选项列表，需与 input 元素配合使用，通过input 元素的 list 属性来绑定，用来定义 input 可能的值。
        datalist 及其选项不会被显示出来，它仅仅是合法的输入值列表。
        性质略同H4的复选框。
-* 格式：'<input id="fruits" list="fruits" />
+* 格式：
+----
+       <input id="fruits" list="fruits" />
        <datalist id="fruits">
        <option value="Apple">
        <option value="Banana">
-       </datalist>'
+       </datalist>
+----
 * 属性方法：支持HTML5的全局属性和事件属性。
 
 ------
