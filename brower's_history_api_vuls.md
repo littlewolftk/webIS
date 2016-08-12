@@ -1,8 +1,10 @@
 # window.history新API的恶意利用
 
+From:[http://resources.infosecinstitute.com/general-html5-security/>][0]
+
 ## 0x00 简介
 
-API就两个：
+可利用的[API][1]就两个：
 
 * `pushState()`: push 新的history实体
 * `replaceState()`:替换当前的history实体
@@ -28,3 +30,6 @@ API就两个：
     window.history.replaceState({},'','/larry.html');
 </script>
 ```
+
+ [0]: http://resources.infosecinstitute.com/general-html5-security/
+ [1]: https://developer.mozilla.org/en-US/docs/Web/API/History_API#The_pushState()_method
