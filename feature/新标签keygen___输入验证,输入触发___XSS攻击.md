@@ -9,7 +9,7 @@
     `  Username: <input type="text" name="usr_name" />`<br>
     `   Encryption: <keygen name="security" />`<br>
     `  <input type="submit" />`<br>
-    </form>
+    `</form>`
 * 属性：
     autofocus 	disabled 	使 keygen 字段在页面加载时获得焦点。<br>
     challenge 	challenge 	如果使用，则将 keygen 的值设置为在提交时询问。<br>
@@ -28,8 +28,8 @@
     
 ------
 典例：
-    <form action="xxx" method="get">`<br>
+   ` <form action="xxx" method="get">`<br>
     `  Username: <input type="text" name="usr_name" formaction="javascript:alert(1)"/>`<br>
     `   Encryption: <keygen name="security" onfocus="alert(1)"/>`<br>
     `  <input type="submit" />`<br>
-    </form>
+   ` </form>`
