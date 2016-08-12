@@ -1,6 +1,6 @@
 # window.history新API的恶意利用
 
-From:[http://resources.infosecinstitute.com/general-html5-security/>][0]
+From:[http://resources.infosecinstitute.com/general-html5-security/][0]
 
 ## 0x00 简介
 
@@ -11,7 +11,7 @@ From:[http://resources.infosecinstitute.com/general-html5-security/>][0]
 
 不过限制就是更改的history实体只能是属于同一document对象的，也就是说限制了为同一源
 
-## 0x02 利用方式
+## 0x01 利用方式
 
 当可以注入js代码时，利用如下代码可使用户在点击back按钮后，回退浏览器历史无效，除非是达到相应的次数（当前的URL为`http://example.com/test.html`）
 
