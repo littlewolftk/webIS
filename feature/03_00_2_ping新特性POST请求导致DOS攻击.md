@@ -16,3 +16,10 @@
       document.head.appendChild(link); link.click(); 
       </script>       
       运行上面的代码，就会不停的向xisigr.com发送POST请求。
+      
+ 1 export CLICOLOR=1
+  2 export LSCOLORS=gxfxcxdxbxegedabagacad
+  3 export GREP_OPTIONS='--color=auto'
+  4 export PS1='\[\e[01;33m\][\[\e[01;32m\]\u\[\e[01;33m\]@\[\e[01;35m\]\h:\[\e[    01;33m\]] \[\e[01;36m\]\w \[\e[01;32m\]\$ '
+  5 export CFLAGS=-Qunused-arguments
+  6 export CPPFLAGS=-Qunused-arguments
